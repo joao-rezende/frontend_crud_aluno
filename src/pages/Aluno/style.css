@@ -1,0 +1,106 @@
+.buscar form { 
+    float: right;
+}
+
+.endereco {
+    margin-bottom: 0px;
+    display: block;
+}
+
+.box {
+    opacity: 0;
+    background-color: rgba(10, 10, 10, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+.box:hover, .box:active, .box:focus {
+    opacity: 1;
+}
+
+.card-alunos div.col{
+    margin-bottom: 8px;
+}
+
+.card-alunos div.col .card {
+    margin: 0 auto;
+    height: 100%;
+}
+
+label#thumbnail {
+    margin-bottom: 20px;
+    border: 1px dashed #ddd;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label#thumbnail input{
+    display: none;
+}
+
+label#thumbnail.has-thumbnail{
+    border: 0;
+}
+
+label#thumbnail.has-thumbnail img{
+    display: none;
+}
+
+.alinhar-direita {
+    text-align: right;
+}
+
+.has-error label {
+    color: #dc3545;
+}
+
+.has-error input {
+    border-color: #dc3545;
+}
+
+.text-danger.msg-erro {
+    font-size: 14px;
+}
+
+.imagem-card {
+    height: 286px;
+    width: auto;
+}
+
+.link-add-aluno {
+    cursor: pointer;
+}
+
+.container-toast{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    min-width: 220px;
+    z-index: 10;
+}
+
+.toast.success .toast-header{
+    background-color: #4CB050;
+    color: #fff;
+}
+
+.toast.success .toast-header button{
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}

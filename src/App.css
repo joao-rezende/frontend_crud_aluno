@@ -1,0 +1,57 @@
+.navbar-brand.imagem-logo { 
+  padding: 0;
+}
+
+#menu-dark {
+  background-color: #101010;
+  margin-bottom: 10px;
+}
+
+#menu-dark .link { 
+  color: #fff;  
+  height: 50px;
+  line-height: 34px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#menu-dark .link:hover { 
+  color: #61dafb;  
+}
+
+#menu-dark .link.active { 
+  color: #61dafb;
+  line-height: 28px;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid #61dafb;
+}
+
+#basic-navbar-nav {
+  height: 50px;
+}
+
+.separador-menu {
+  width: 0;
+  border-right: 1px solid #363636;
+  margin: .5em;
+  overflow: hidden;
+}
+
+#link-github {
+  line-height: 25px;
+  font-size: 25px;
+}
+
+@media (max-width: 992px) {
+  #menu-dark #basic-navbar-nav {
+    height: auto;
+  }
+
+  #menu-dark .separador-menu {
+    display: none;
+  }
+
+  #menu-dark #menu-direita {
+    text-align: center;
+  }
+}
