@@ -10,8 +10,9 @@ import api from '../services/api';
 const mascaraCep = [/\d/, /\d/, /\d/, /\d/, /\d/, "-", /\d/, /\d/, /\d/];
 
 function mascararCep(valor) {
-  if (valor !== undefined && valor.length === 8) {
-    return valor.substring(0, 5) + "-" + valor.substring(5, 8);
+  if (valor !== undefined && valor.toString().length === 8) {
+    var cep = valor.toString();
+    return cep.substring(0, 5) + "-" + cep.substring(5, 8);
   }
   return valor;
 }
