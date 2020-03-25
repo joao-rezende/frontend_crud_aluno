@@ -47,7 +47,12 @@ function App() {
                   </Tooltip>
                 }>
                 <Navbar.Text>
-                  <a id="link-github" href="https://github.com/joao-rezende/backend_crud_aluno"><FontAwesomeIcon icon={faGithub} /></a>
+                  <a id="link-github"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/joao-rezende/frontend_crud_aluno">
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
                 </Navbar.Text>
               </OverlayTrigger>
             </div>

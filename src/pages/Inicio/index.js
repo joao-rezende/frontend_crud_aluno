@@ -47,12 +47,12 @@ export default function Inicio() {
                         <li>Faça o download do backend <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://github.com/joao-rezende/backend_crud_aluno/archive/v.1.0.0.zip"
+                            href="https://github.com/joao-rezende/backend_crud_aluno/archive/master.zip"
                         >
                             clicando aqui
                                 </a>, <strong>caso já tenha a pasta backend pule para o passo 6 e ignore os passos 11 a 13</strong>.
                             </li>
-                        <li>Extraia o arquivo que foi baixado e ele gerará uma pasta com nome “backend_crud_aluno-v.1.0.0”, renomeie para “backend”.</li>
+                        <li>Extraia o arquivo que foi baixado e ele gerará uma pasta com nome “backend_crud_aluno-master”, renomeie para “backend”.</li>
                         <li>Cole a pasta backend na pasta de execução do servidor apache/php. Exemplo:</li>
                         <ul>
                             <li>Windows (XAMPP): C:\xampp\htdocs\</li>
